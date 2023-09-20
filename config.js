@@ -17,12 +17,12 @@ global.statusseen = true;                 //This is the new variable for control
 
 
 //
-global.Owner = ["8801853262586","8801928502256"];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
-global.OwnerNumber = ["8801853262586","8801928502256"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
-global.ownertag = ["8801928502256"];
-global.OwnerName = "Slasher";
-global.BotName = "XLICON-MD";
-global.packname = "X-2.0 Bot";                             //Do not change.
+global.Owner = ["2348068620970",""];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.OwnerNumber = ["2348068620970",""];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.ownertag = ["2348068620970"];
+global.OwnerName = "𝐺𝛪𝛭 BØT";
+global.BotName = "𝐺𝛪𝛭 BØT";
+global.packname = "𝐺𝛪𝛭 BØT";                             //Do not change.
 global.author = "By: Slasher";                               //Do not change.
 global.BotSourceCode = "https://github.com/ahil15/Xlicon-v2"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2"; 
@@ -33,7 +33,7 @@ global.sessionName = "session";                          //Do not change.
 
 
 //
-global.prefa = ["."];                                    //Default prefix here.
+global.prefa = [":"];                                    //Default prefix here.
 global.openAiAPI = "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";
 
 
