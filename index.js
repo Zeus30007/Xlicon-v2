@@ -260,16 +260,16 @@ A17.ev.on('group-participants.update', async (anu) => {
 
 Pikachu, Welcomes you to ${metadata.subject}.
 
-*⚡Group Description⚡:*
+*Group Description:*
 ${metadata.desc}
 `
 
           let buttonMessage = {
-            ⚡image: await getBuffer(ppgroup),
-            ⚡mentions: [num],
-            ⚡caption: A17text,
-            ⚡footer: `${global.BotName}`,
-            ⚡headerType: 4,
+            image: await getBuffer(ppgroup),
+            mentions: [num],
+            caption: A17text,
+            footer: `${global.BotName}`,
+            headerType: 4,
           }
           A17.sendMessage(anu.id, buttonMessage)
         } else if (anu.action == 'remove') {
@@ -282,11 +282,11 @@ I hope you will not come back soon because pika ill not miss you, but You will b
 `
 
           let buttonMessage = {
-            ⚡image: await getBuffer(ppuser),
-            ⚡mentions: [num],
-            ⚡caption: A17text,
-            ⚡footer: `${global.BotName}`,
-            ⚡headerType: 4,
+            image: await getBuffer(ppuser),
+            mentions: [num],
+            caption: A17text,
+            footer: `${global.BotName}`,
+            headerType: 4,
 
           }
           A17.sendMessage(anu.id, buttonMessage)
