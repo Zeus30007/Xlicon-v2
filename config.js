@@ -17,8 +17,8 @@ global.statusseen = true;                 //This is the new variable for control
 
 
 //
-global.Owner = ["2348068620970",""];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
-global.OwnerNumber = ["2348068620970",""];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.Owner = ["2348068620970","6797309646"];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.OwnerNumber = ["2348068620970","6797309646"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
 global.ownertag = ["2348068620970"];
 global.OwnerName = "Gim";
 global.BotName = "pikachu";
