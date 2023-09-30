@@ -183,34 +183,34 @@ async function startA17() {
             A17text = `
   ▼・ᴥ・▼ @${WAuserName.split("@")[0]},
   
-  ⚡Pikachu⚡ Welcomes you to ${metadata.subject}.
+  Pikachu Welcomes you to ${metadata.subject}.
   
-  *⚡Group Description⚡:*
+  *Group Description:*
   ${metadata.desc}
   `
   
             let buttonMessage = {
-              ⚡image: await getBuffer(ppgroup),
-              ⚡mentions: [num],
-              ⚡caption: A17text,
-              ⚡footer: `${global.BotName}`,
-              ⚡headerType: 4,
+              image: await getBuffer(ppgroup),
+              mentions: [num],
+              caption: A17text,
+              footer: `${global.BotName}`,
+              headerType: 4,
             }
             A17.sendMessage(anu.id, buttonMessage)
           } else if (anu.action == 'remove') {
             let WAuserName = num
             A17text = `
-   ⚡Pikachu says bye, @${WAuserName.split("@")[0]},
+   Pikachu says bye, @${WAuserName.split("@")[0]},
   
-  I hope you will not come back soon because pika ill not miss you, but You will be missed bye members!⚡
+  I hope you will not come back soon because pika ill not miss you, but You will be missed bye members!
   `
   
             let buttonMessage = {
-              ⚡image: await getBuffer(ppuser),
-              ⚡mentions: [num],
-              ⚡caption: A17text,
-              ⚡footer: `${global.BotName}`,
-              ⚡headerType: 4,
+              image: await getBuffer(ppuser),
+              mentions: [num],
+              caption: A17text,
+              footer: `${global.BotName}`,
+              headerType: 4,
   
             }
             A17.sendMessage(anu.id, buttonMessage)
@@ -224,7 +224,7 @@ async function startA17() {
 */
 
 
-//... ⚡Groupevent handling⚡
+//... Groupevent handling
 
 A17.ev.on('group-participants.update', async (anu) => {
   if (global.groupevent) { // Check if group event handling is enabled ...
